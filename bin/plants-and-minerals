@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "./lib/plants_and_minerals"
+
+PlantsAndMinerals::Planet.new.welcome
