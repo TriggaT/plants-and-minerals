@@ -9,7 +9,7 @@ class PlantsAndMinerals::Planet
         puts ""
         puts "Loading specimens..."
         Planting.seeds 
-        Mine.minerals
+        Mine.scraping
         list
     end 
   
@@ -56,8 +56,8 @@ class PlantsAndMinerals::Planet
         puts "------------"
         puts "Here comes all the all the minerals on our planet:"
         sleep(3)
-        Mine.all.each.with_index(1) do |mineral, index|
-            puts "#{index}) #{mineral}"
+        Mineral.all.each.with_index(1) do |mineral, index|
+            puts "#{index}) #{mineral.name}"
             sleep(0.000001)
         end 
         puts "---------------------------------------"

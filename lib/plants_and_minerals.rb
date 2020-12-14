@@ -8,6 +8,8 @@ require_relative "plants_and_minerals/planet"
 require_relative "plants_and_minerals/planting"
 require_relative "plants_and_minerals/mine"
 require_relative "plants_and_minerals/plants"
+require_relative "plants_and_minerals/minerals"
+
 
 
 
